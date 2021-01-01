@@ -12,8 +12,8 @@ jobs:
       with:
         host: 167.99.72.59
         username: root
+        password: Azkal182AA
         port: 22
-        key:  ${{ secrets.SSH_KEYS }}
         script: whoami && pwd 
   
     
